@@ -40,4 +40,8 @@ RSpec.configure do |config|
   #     --seed 1234
   #config.order = "random"
   config.include Capybara::DSL
+  #adding named routes to Rspec
+  config.include Rails.application.routes.url_helpers
+  #adding application_helper to Rspec
+  config.include ApplicationHelper
 end
