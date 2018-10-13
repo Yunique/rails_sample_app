@@ -3,9 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 gem 'bootstrap-sass', '3.3.7'
+gem 'bcrypt'
+
 # gem 'postgresql'
 gem 'pg', '0.18'
 # Use Puma as the app server
