@@ -6,6 +6,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.1'
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt'
+gem 'jquery-rails'
 
 # gem 'postgresql'
 gem 'pg', '0.18'
