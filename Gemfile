@@ -7,7 +7,9 @@ gem 'rails', '~> 5.2.1'
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt'
 gem 'jquery-rails'
-
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # gem 'postgresql'
 gem 'pg', '0.18'
 # Use Puma as the app server
